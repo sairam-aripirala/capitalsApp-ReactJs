@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #f8fafc;
+  width: 45%;
+  height: 50%;
+  border-radius: 20px;
+  text-align: start;
+  padding: 50px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #323f4b;
+}
+.questions-container {
+  display: flex;
+  flex-direction: row;
+}
+.select-capital {
+  width: 200px;
+  height: 45px;
+  border-radius: 8px;
+  border-color: #cbd2d9;
+  font-family: 'Roboto';
+}
+.option {
+  color: black;
+  font-family: 'Roboto';
+}
+.question {
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 10px;
+}
+.country {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+  color: #1e293b;
+}
